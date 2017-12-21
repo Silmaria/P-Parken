@@ -1,0 +1,129 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .img-header {
+  height: 280px;
+  width: 98.5%;
+  margin-left: 0.78%;
+  background-image: url(img/Art.jpg);
+}
+header .navigation {
+  height: 60px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 0.78%;
+  width: 98.5%;
+  background-color: red;
+  margin-bottom: 0px;
+  margin-top: -10px;
+}
+header .navigation nav ul li {
+  display: inline-block;
+  float: left;
+  list-style-type: none;
+  margin-left: 11%;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+body .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-height: 1800px;
+  max-width: 100%;
+  width: 100%;
+  margin: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0.5rem;
+}
+body .flex-1 {
+  margin: 0.5rem;
+  width: 32%;
+  height: 230px;
+}
+body .flex-1 img {
+  width: 100%;
+  max-height: 230px;
+}
+body .flex-2 {
+  margin: 0.5rem;
+  width: 32%;
+}
+body .flex-2 img {
+  width: 100%;
+  max-height: 230px;
+}
+body .flex-3 {
+  margin: 0.5rem;
+  width: 32%;
+}
+body .flex-3 img {
+  width: 100%;
+  max-height: 230px;
+}
+body .flex-4 {
+  margin: 0.5rem;
+  width: 32%;
+  height: 230px;
+}
+body .flex-4 img {
+  width: 100%;
+  max-height: 230px;
+}
+body .flex-5 {
+  width: 32%;
+  margin: 0.5rem;
+}
+body .flex-5 img {
+  width: 100%;
+  max-height: 230px;
+}
+body .flex-6 {
+  width: 32%;
+  margin: 0.5rem;
+}
+body .flex-6 img {
+  width: 100%;
+  max-height: 230px;
+}
+body .flex-7 {
+  width: 32%;
+  margin: 0.5rem;
+}
+body .flex-7 img {
+  width: 100%;
+  max-height: 230px;
+}
+body .flex-8 {
+  width: 32%;
+  margin: 0.5rem;
+}
+body .flex-8 img {
+  width: 100%;
+  max-height: 230px;
+}
+body .flex-9 {
+  width: 32%;
+  margin: 0.5rem;
+}
+body .flex-9 img {
+  width: 100%;
+  max-height: 230px;
+}
+
+footer {
+  height: 130px;
+  background-color: black;
+}

@@ -1,0 +1,143 @@
+@import "_mixin.scss";
+@import "_variable.scss";
+@import "_reset.scss";
+* {
+  box-sizing: border-box;
+}
+header {
+  .img-header{
+    height: 280px;
+    width: 98.5%;
+    margin-left: 0.78%;
+    background-image: url(img/Art.jpg);
+   }
+    .navigation{
+      height: 60px;
+      justify-content: center;
+      margin-left: 0.78%;
+      width: 98.5%;
+      background-color: red;
+      margin-bottom: 0px;
+      margin-top: -10px;
+
+      nav{
+        ul{
+          li{
+            display: inline-block;
+            float: left;
+            list-style-type: none;
+            margin-left: 11%;
+            font-size: 24px;
+            margin-top: 10px;
+
+
+        }
+      }
+    }
+  }
+}
+//forside opsætning start
+body{
+  .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: 1800px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  .flex-1{
+    margin: 0.5rem;
+    width: 32%;
+    height: 230px;
+    img{
+      width: 100%;
+      max-height: 230px;
+    }
+  }
+  .flex-2{
+    margin: 0.5rem;
+    width: 32%;
+    img{
+      width: 100%;
+      max-height: 230px;
+    }
+  }
+  .flex-3{
+    margin: 0.5rem;
+    width: 32%;
+    img{
+      width: 100%;
+      max-height: 230px;
+    }
+  }
+  .flex-4{
+    margin: 0.5rem;
+    width: 32%;
+    height: 230px;
+    img{
+      width: 100%;
+      max-height: 230px;
+    }
+  }
+  .flex-5{
+    width: 32%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+    }
+  }
+  .flex-6{
+    width: 32%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+    }
+  }
+  .flex-7{
+    width: 32%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+    }
+  }
+  .flex-8{
+    width: 32%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+    }
+  }
+  .flex-9{
+    width: 32%;
+    margin: 0.5rem;
+    img{
+      width: 100%;
+      max-height: 230px;
+    }
+  }
+//forside opsætning slut
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+    }
+footer{
+  height: 130px;
+  background-color: black;
+
+}
