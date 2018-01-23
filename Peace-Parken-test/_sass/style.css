@@ -1,0 +1,418 @@
+@charset "UTF-8";
+a {
+  color: #0cff00;
+  text-decoration: none; }
+
+p {
+  font-family: Muli; }
+
+li {
+  font-family: Muli; }
+
+h1 {
+  font-family: Muli; }
+
+body header .img-header a img {
+  width: 100%;
+  height: auto; }
+body header ul {
+  list-style-type: none;
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white; }
+  @media screen and (min-width: 320px) {
+    body header ul {
+      width: 100%; } }
+  body header ul li {
+    float: left; }
+    body header ul li a {
+      display: block;
+      padding: 14px 16px;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      font-size: 8px; }
+      @media screen and (min-width: 300px) {
+        body header ul li a {
+          padding: 0px 0px; } }
+      @media screen and (min-width: 500px) {
+        body header ul li a {
+          font-size: 12px; } }
+      @media screen and (min-width: 762px) {
+        body header ul li a {
+          font-size: 20px; } }
+      @media screen and (min-width: 1024px) {
+        body header ul li a {
+          font-size: 32px; } }
+      body header ul li a:hover {
+        color: #0cff00; }
+
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%; }
+  #wrapper a {
+    width: 80%;
+    height: auto;
+    margin: 2%; }
+    @media screen and (min-width: 762px) {
+      #wrapper a {
+        width: 40%; } }
+    @media screen and (min-width: 1024px) {
+      #wrapper a {
+        width: 28%; } }
+    @media screen and (min-width: 1366px) {
+      #wrapper a {
+        width: 28%; } }
+    #wrapper a:hover {
+      opacity: 0.3;
+      color: #fff;
+      transition-duration: 0.3s; }
+    #wrapper a img {
+      width: 100%;
+      height: auto; }
+
+footer {
+  text-align: center; }
+
+#aktiviteter_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  #aktiviteter_wrapper img {
+    width: 100%; }
+  #aktiviteter_wrapper a {
+    width: 100%; }
+    @media screen and (min-width: 762px) {
+      #aktiviteter_wrapper a {
+        width: 40%; } }
+  #aktiviteter_wrapper p {
+    width: 80%;
+    margin: 4%;
+    margin-left: 0; }
+    @media screen and (min-width: 500px) {
+      #aktiviteter_wrapper p {
+        font-size: 12px;
+        margin-top: 2%; } }
+    @media screen and (min-width: 762px) {
+      #aktiviteter_wrapper p {
+        font-size: 18px;
+        width: 40%;
+        margin: 3%;
+        margin-left: 0; } }
+    @media screen and (min-width: 1024px) {
+      #aktiviteter_wrapper p {
+        font-size: 24px; } }
+    @media screen and (min-width: 1366px) {
+      #aktiviteter_wrapper p {
+        font-size: 36px; } }
+
+#brandkadet_wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  #brandkadet_wrapper img {
+    width: 100%;
+    height: auto; }
+
+a {
+  width: 100%; }
+  @media screen and (min-width: 762px) {
+    a {
+      width: 40%;
+      margin: 3%; } }
+
+@media screen and (max-width: 762px) {
+  .brand2_remove {
+    display: none; } }
+@media screen and (min-width: 762px) {
+  .brand2_remove {
+    width: 40%;
+    display: contents; } }
+
+h1 {
+  text-align: center;
+  width: 100%; }
+  @media screen and (min-width: 1024px) {
+    h1 {
+      font-size: 46px; } }
+
+p {
+  font-size: 16px; }
+  @media screen and (min-width: 762px) {
+    p {
+      font-size: 22px;
+      margin: 2%; } }
+  @media screen and (min-width: 1024px) {
+    p {
+      font-size: 28px; } }
+  @media screen and (min-width: 1366px) {
+    p {
+      font-size: 36px; } }
+
+#helhedsplan_wrapper {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: center; }
+  #helhedsplan_wrapper img {
+    width: 100%;
+    height: auto;
+    margin: 0; }
+  #helhedsplan_wrapper a {
+    width: 100%;
+    height: auto;
+    margin: 0; }
+    @media screen and (min-width: 762px) {
+      #helhedsplan_wrapper a {
+        width: 45%;
+        margin-bottom: 2%; } }
+  @media screen and (min-width: 762px) {
+    #helhedsplan_wrapper p {
+      width: 42%;
+      margin: 0;
+      margin-left: 2%; } }
+  @media screen and (min-width: 762px) and (min-width: 1366px) {
+    #helhedsplan_wrapper p {
+      font-size: 40px; } }
+
+#indsatsomraader_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center; }
+  @media screen and (min-width: 762px) {
+    #indsatsomraader_wrapper h1 {
+      font-size: 36px; } }
+  @media screen and (min-width: 1024px) {
+    #indsatsomraader_wrapper h1 {
+      font-size: 66px; } }
+  @media screen and (min-width: 1366px) {
+    #indsatsomraader_wrapper h1 {
+      font-size: 89px; } }
+  @media screen and (min-width: 762px) {
+    #indsatsomraader_wrapper p {
+      width: 100%; } }
+  #indsatsomraader_wrapper div {
+    width: 100%; }
+    @media screen and (min-width: 762px) {
+      #indsatsomraader_wrapper div {
+        width: 40%; } }
+  #indsatsomraader_wrapper ul li {
+    font-family: Muli; }
+    @media screen and (min-width: 762px) {
+      #indsatsomraader_wrapper ul li {
+        width: 100%; } }
+  #indsatsomraader_wrapper img {
+    width: 100%;
+    height: auto; }
+  #indsatsomraader_wrapper a {
+    width: 90%; }
+    @media screen and (min-width: 762px) {
+      #indsatsomraader_wrapper a {
+        width: 47%; } }
+  #indsatsomraader_wrapper .hjælp {
+    width: 100%;
+    height: auto; }
+    @media screen and (min-width: 762px) {
+      #indsatsomraader_wrapper .hjælp {
+        width: 100%; } }
+
+#kontakt_wrapper {
+  display: flex;
+  background-image: url("img/cork-board.jpg");
+  flex-wrap: wrap; }
+  @media screen and (min-width: 762px) {
+    #kontakt_wrapper a {
+      width: 50%; } }
+  @media screen and (min-width: 1024px) {
+    #kontakt_wrapper a {
+      width: 50%; } }
+  @media screen and (min-width: 1366px) {
+    #kontakt_wrapper a {
+      width: 32%; } }
+  #kontakt_wrapper img {
+    width: 100%;
+    height: auto; }
+
+#oekonomiskraadgivning_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  #oekonomiskraadgivning_wrapper h1 {
+    width: 100%; }
+    @media screen and (min-width: 320px) {
+      #oekonomiskraadgivning_wrapper h1 {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%; } }
+    @media screen and (min-width: 500px) {
+      #oekonomiskraadgivning_wrapper h1 {
+        font-size: 30px; } }
+    @media screen and (min-width: 1024px) {
+      #oekonomiskraadgivning_wrapper h1 {
+        font-size: 50px; } }
+    @media screen and (min-width: 1366px) {
+      #oekonomiskraadgivning_wrapper h1 {
+        font-size: 65px; } }
+  #oekonomiskraadgivning_wrapper a {
+    width: 100%; }
+    @media screen and (min-width: 320px) {
+      #oekonomiskraadgivning_wrapper a {
+        margin: 3%;
+        width: 80%; } }
+    @media screen and (min-width: 762px) {
+      #oekonomiskraadgivning_wrapper a {
+        width: 49%; } }
+    @media screen and (min-width: 1024px) {
+      #oekonomiskraadgivning_wrapper a {
+        width: 49%; } }
+    @media screen and (min-width: 1366px) {
+      #oekonomiskraadgivning_wrapper a {
+        width: 49%; } }
+  #oekonomiskraadgivning_wrapper img {
+    width: 100%;
+    height: auto; }
+  @media screen and (min-width: 320px) {
+    #oekonomiskraadgivning_wrapper div {
+      width: 80%;
+      font-size: 14px; } }
+  @media screen and (min-width: 500px) {
+    #oekonomiskraadgivning_wrapper div {
+      font-size: 15px;
+      width: 80%; } }
+  @media screen and (min-width: 762px) {
+    #oekonomiskraadgivning_wrapper div {
+      width: 40%;
+      margin-top: 0.1%;
+      margin-left: 1%;
+      font-size: 15px; } }
+  @media screen and (min-width: 1024px) {
+    #oekonomiskraadgivning_wrapper div {
+      width: 32%;
+      font-size: 19px;
+      margin-top: 0.1%; } }
+  @media screen and (min-width: 1366px) {
+    #oekonomiskraadgivning_wrapper div {
+      width: 40%;
+      margin-left: 1%;
+      margin-top: 0.4%;
+      font-size: 27px; } }
+  @media screen and (min-width: 762px) {
+    #oekonomiskraadgivning_wrapper div ul {
+      margin: 0; } }
+
+#presse_wrapper {
+  display: flex;
+  flex-wrap: wrap; }
+  #presse_wrapper h1 {
+    width: 100%; }
+    @media screen and (min-width: 320px) {
+      #presse_wrapper h1 {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 5%;
+        margin-bottom: 5%; } }
+    @media screen and (min-width: 500px) {
+      #presse_wrapper h1 {
+        font-size: 35px;
+        margin-top: 5%;
+        margin-bottom: 5%; } }
+    @media screen and (min-width: 1024px) {
+      #presse_wrapper h1 {
+        font-size: 50px;
+        margin-top: 5%;
+        margin-bottom: 5%; } }
+    @media screen and (min-width: 1366px) {
+      #presse_wrapper h1 {
+        font-size: 65px;
+        margin-top: 5%;
+        margin-bottom: 5%; } }
+  #presse_wrapper a {
+    width: 100%;
+    height: auto;
+    justify-content: center; }
+    @media screen and (min-width: 320px) {
+      #presse_wrapper a {
+        width: 80%;
+        margin: 2% 2% 2% 11%; } }
+    @media screen and (min-width: 500px) {
+      #presse_wrapper a {
+        width: 77%; } }
+    @media screen and (min-width: 762px) {
+      #presse_wrapper a {
+        width: 40%;
+        margin: 2% 5% 2% 5%;
+        margin-top: 5%; } }
+  #presse_wrapper img {
+    width: 100%;
+    height: auto; }
+  #presse_wrapper .video_wrapper {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 20%; }
+  #presse_wrapper iframe {
+    width: 100%;
+    height: 100%; }
+
+#raadgivning_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4%; }
+  #raadgivning_wrapper a {
+    width: 100%; }
+    @media screen and (min-width: 320px) {
+      #raadgivning_wrapper a {
+        margin: 3%;
+        width: 80%; } }
+    @media screen and (min-width: 762px) {
+      #raadgivning_wrapper a {
+        width: 49%; } }
+    @media screen and (min-width: 1024px) {
+      #raadgivning_wrapper a {
+        width: 40%;
+        margin-left: 13%; } }
+    @media screen and (min-width: 1366px) {
+      #raadgivning_wrapper a {
+        width: 40%;
+        margin-left: 7%; } }
+  #raadgivning_wrapper img {
+    width: 100%;
+    height: auto; }
+  @media screen and (min-width: 320px) {
+    #raadgivning_wrapper p {
+      width: 80%;
+      font-size: 14px;
+      margin-left: 2.5%; } }
+  @media screen and (min-width: 500px) {
+    #raadgivning_wrapper p {
+      font-size: 15px;
+      width: 80%; } }
+  @media screen and (min-width: 762px) {
+    #raadgivning_wrapper p {
+      width: 40%;
+      margin-top: 2.5%;
+      margin-left: 1%;
+      font-size: 15px; } }
+  @media screen and (min-width: 1024px) {
+    #raadgivning_wrapper p {
+      width: 32%;
+      font-size: 19px;
+      margin-top: 2.5%; } }
+  @media screen and (min-width: 1366px) {
+    #raadgivning_wrapper p {
+      width: 40%;
+      margin-left: 1%;
+      margin-top: 2.5%;
+      font-size: 62px; } }
+
+/*# sourceMappingURL=style.css.map */
